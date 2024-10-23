@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		25E1285E2CC654AE00EAEE74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25E1283F2CC654AC00EAEE74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25E128462CC654AC00EAEE74;
+			remoteInfo = "Money-Plant";
+		};
+		25E128682CC654AE00EAEE74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25E1283F2CC654AC00EAEE74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25E128462CC654AC00EAEE74;
+			remoteInfo = "Money-Plant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25E128472CC654AC00EAEE74 /* Money-Plant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money-Plant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E1285D2CC654AE00EAEE74 /* Money-PlantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money-PlantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E128672CC654AE00EAEE74 /* Money-PlantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money-PlantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		25E1286F2CC654AE00EAEE74 /* Exceptions for "Money-Plant" folder in "Money-Plant" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 25E128462CC654AC00EAEE74 /* Money-Plant */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		25E128492CC654AC00EAEE74 /* Money-Plant */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				25E1286F2CC654AE00EAEE74 /* Exceptions for "Money-Plant" folder in "Money-Plant" target */,
+			);
+			path = "Money-Plant";
+			sourceTree = "<group>";
+		};
+		25E128602CC654AE00EAEE74 /* Money-PlantTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Money-PlantTests";
+			sourceTree = "<group>";
+		};
+		25E1286A2CC654AE00EAEE74 /* Money-PlantUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Money-PlantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25E128442CC654AC00EAEE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E1285A2CC654AE00EAEE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E128642CC654AE00EAEE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25E1283E2CC654AC00EAEE74 = {
+			isa = PBXGroup;
+			children = (
+				25E128492CC654AC00EAEE74 /* Money-Plant */,
+				25E128602CC654AE00EAEE74 /* Money-PlantTests */,
+				25E1286A2CC654AE00EAEE74 /* Money-PlantUITests */,
+				25E128482CC654AC00EAEE74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25E128482CC654AC00EAEE74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25E128472CC654AC00EAEE74 /* Money-Plant.app */,
+				25E1285D2CC654AE00EAEE74 /* Money-PlantTests.xctest */,
+				25E128672CC654AE00EAEE74 /* Money-PlantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25E128462CC654AC00EAEE74 /* Money-Plant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E128702CC654AE00EAEE74 /* Build configuration list for PBXNativeTarget "Money-Plant" */;
+			buildPhases = (
+				25E128432CC654AC00EAEE74 /* Sources */,
+				25E128442CC654AC00EAEE74 /* Frameworks */,
+				25E128452CC654AC00EAEE74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				25E128492CC654AC00EAEE74 /* Money-Plant */,
+			);
+			name = "Money-Plant";
+			packageProductDependencies = (
+			);
+			productName = "Money-Plant";
+			productReference = 25E128472CC654AC00EAEE74 /* Money-Plant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25E1285C2CC654AE00EAEE74 /* Money-PlantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E128752CC654AE00EAEE74 /* Build configuration list for PBXNativeTarget "Money-PlantTests" */;
+			buildPhases = (
+				25E128592CC654AE00EAEE74 /* Sources */,
+				25E1285A2CC654AE00EAEE74 /* Frameworks */,
+				25E1285B2CC654AE00EAEE74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E1285F2CC654AE00EAEE74 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				25E128602CC654AE00EAEE74 /* Money-PlantTests */,
+			);
+			name = "Money-PlantTests";
+			packageProductDependencies = (
+			);
+			productName = "Money-PlantTests";
+			productReference = 25E1285D2CC654AE00EAEE74 /* Money-PlantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25E128662CC654AE00EAEE74 /* Money-PlantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E128782CC654AE00EAEE74 /* Build configuration list for PBXNativeTarget "Money-PlantUITests" */;
+			buildPhases = (
+				25E128632CC654AE00EAEE74 /* Sources */,
+				25E128642CC654AE00EAEE74 /* Frameworks */,
+				25E128652CC654AE00EAEE74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E128692CC654AE00EAEE74 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				25E1286A2CC654AE00EAEE74 /* Money-PlantUITests */,
+			);
+			name = "Money-PlantUITests";
+			packageProductDependencies = (
+			);
+			productName = "Money-PlantUITests";
+			productReference = 25E128672CC654AE00EAEE74 /* Money-PlantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25E1283F2CC654AC00EAEE74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					25E128462CC654AC00EAEE74 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					25E1285C2CC654AE00EAEE74 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 25E128462CC654AC00EAEE74;
+					};
+					25E128662CC654AE00EAEE74 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 25E128462CC654AC00EAEE74;
+					};
+				};
+			};
+			buildConfigurationList = 25E128422CC654AC00EAEE74 /* Build configuration list for PBXProject "Money-Plant" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25E1283E2CC654AC00EAEE74;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 25E128482CC654AC00EAEE74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E128462CC654AC00EAEE74 /* Money-Plant */,
+				25E1285C2CC654AE00EAEE74 /* Money-PlantTests */,
+				25E128662CC654AE00EAEE74 /* Money-PlantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E128452CC654AC00EAEE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E1285B2CC654AE00EAEE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E128652CC654AE00EAEE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25E128432CC654AC00EAEE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E128592CC654AE00EAEE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E128632CC654AE00EAEE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25E1285F2CC654AE00EAEE74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25E128462CC654AC00EAEE74 /* Money-Plant */;
+			targetProxy = 25E1285E2CC654AE00EAEE74 /* PBXContainerItemProxy */;
+		};
+		25E128692CC654AE00EAEE74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25E128462CC654AC00EAEE74 /* Money-Plant */;
+			targetProxy = 25E128682CC654AE00EAEE74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25E128712CC654AE00EAEE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XRJ445B35D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Money-Plant/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SRM.Money-Plant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25E128722CC654AE00EAEE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XRJ445B35D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Money-Plant/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SRM.Money-Plant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25E128732CC654AE00EAEE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25E128742CC654AE00EAEE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25E128762CC654AE00EAEE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XRJ445B35D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SRM.Money-PlantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money-Plant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Money-Plant";
+			};
+			name = Debug;
+		};
+		25E128772CC654AE00EAEE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XRJ445B35D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SRM.Money-PlantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money-Plant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Money-Plant";
+			};
+			name = Release;
+		};
+		25E128792CC654AE00EAEE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XRJ445B35D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SRM.Money-PlantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Money-Plant";
+			};
+			name = Debug;
+		};
+		25E1287A2CC654AE00EAEE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XRJ445B35D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SRM.Money-PlantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Money-Plant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E128422CC654AC00EAEE74 /* Build configuration list for PBXProject "Money-Plant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E128732CC654AE00EAEE74 /* Debug */,
+				25E128742CC654AE00EAEE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E128702CC654AE00EAEE74 /* Build configuration list for PBXNativeTarget "Money-Plant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E128712CC654AE00EAEE74 /* Debug */,
+				25E128722CC654AE00EAEE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E128752CC654AE00EAEE74 /* Build configuration list for PBXNativeTarget "Money-PlantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E128762CC654AE00EAEE74 /* Debug */,
+				25E128772CC654AE00EAEE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E128782CC654AE00EAEE74 /* Build configuration list for PBXNativeTarget "Money-PlantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E128792CC654AE00EAEE74 /* Debug */,
+				25E1287A2CC654AE00EAEE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25E1283F2CC654AC00EAEE74 /* Project object */;
+}
