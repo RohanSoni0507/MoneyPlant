@@ -11,14 +11,12 @@
         <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Money_Plant" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screenshot 2024-10-28 at 2.06.59 PM" translatesAutoresizingMaskIntoConstraints="NO" id="j0e-te-BU8" userLabel="Image">
-                                <rect key="frame" x="0.0" y="59" width="393" height="728"/>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="fillEqually" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="kdy-xJ-h8s">
                                 <rect key="frame" x="7" y="67" width="393.33333333333331" height="22"/>
                                 <subviews>
@@ -74,6 +72,9 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screenshot 2024-10-28 at 2.06.59 PM" translatesAutoresizingMaskIntoConstraints="NO" id="j0e-te-BU8" userLabel="Image">
+                                <rect key="frame" x="0.0" y="41" width="393" height="728"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -91,14 +92,13 @@
                         <outlet property="tuesdayLabel" destination="587-zD-Nd4" id="MtD-9O-eqQ"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-489" y="735"/>
         </scene>
-        <!--Item-->
+        <!--Records-->
         <scene sceneID="tZV-HV-3dc">
             <objects>
-                <viewController id="fam-H8-HEc" sceneMemberID="viewController">
+                <viewController id="fam-H8-HEc" userLabel="Records" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G9v-Qr-Mad">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,46 +116,47 @@
                                 <rect key="frame" x="0.0" y="413" width="393" height="356"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TransactionCell" rowHeight="65" id="KDW-l3-08X">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TransactionCell" rowHeight="65" id="KDW-l3-08X" customClass="ExpenseCell" customModule="Money_Plant" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="65"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KDW-l3-08X" id="Fy5-aa-O9h">
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="65"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IQD-ba-X53">
-                                                    <rect key="frame" x="20" y="12.666666666666664" width="40" height="40"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fork.knife.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="IQD-ba-X53">
+                                                    <rect key="frame" x="20" y="13.333333333333332" width="40" height="38.666666666666671"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="HW6-Qw-IIp"/>
                                                         <constraint firstAttribute="width" constant="40" id="NcW-Ja-V3h"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1k-BT-rgO">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1k-BT-rgO">
                                                     <rect key="frame" x="68" y="4" width="219" height="28"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="28" id="wgV-2J-jO7"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPN-GT-5dO">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dinner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPN-GT-5dO">
                                                     <rect key="frame" x="68" y="31" width="221" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="XsJ-oG-sek"/>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="t2r-oj-dMY"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JyK-aQ-wl3">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₹500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JyK-aQ-wl3">
                                                     <rect key="frame" x="297" y="18" width="76" height="29"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="29" id="04h-Ky-Rrd"/>
                                                         <constraint firstAttribute="width" constant="76" id="5fX-oB-412"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -175,6 +176,12 @@
                                                 <constraint firstItem="cPN-GT-5dO" firstAttribute="top" secondItem="Fy5-aa-O9h" secondAttribute="topMargin" constant="20" id="zKy-LU-IR8"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="ExpenseAmount" destination="JyK-aQ-wl3" id="apx-ej-KK5"/>
+                                            <outlet property="ExpenseDescLabel" destination="cPN-GT-5dO" id="XeO-MK-lsg"/>
+                                            <outlet property="ExpenseImageView" destination="IQD-ba-X53" id="XrN-fs-TCD"/>
+                                            <outlet property="ExpenseNameLabel" destination="Z1k-BT-rgO" id="tty-oO-q8H"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -257,6 +264,7 @@
     <resources>
         <image name="Screenshot 2024-10-28 at 2.06.59 PM" width="726" height="1322"/>
         <image name="calendar" catalog="system" width="128" height="107"/>
+        <image name="fork.knife.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

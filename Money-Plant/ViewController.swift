@@ -33,3 +33,26 @@ class ViewController: UIViewController {
 
 }
 
+
+//Records page
+
+var expenses: [String] = []
+extension ViewController:UITableViewDelegate,UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return expenses.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "TransactionCell", for: indexPath) as? ExpenseCell else {
+            return UITableViewCell()
+        }
+        cell.textLabel?.text = expenses[indexPath.row]
+        cell.ExpenseNameLabel.text = "Shoping"
+        cell.ExpenseImageView.image = UIImage(named: " vv")
+        cell.ExpenseAmount.text = "₹1000"
+        cell.ExpenseDescLabel.text = "Dress"
+        return cell
+    }
+    
+    
+}
